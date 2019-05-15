@@ -14,6 +14,7 @@
 		20A68580228B830E00026268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A6857E228B830E00026268 /* LaunchScreen.storyboard */; };
 		20A6858B228B830E00026268 /* namestofacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6858A228B830E00026268 /* namestofacesTests.swift */; };
 		20A68596228B830E00026268 /* namestofacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A68595228B830E00026268 /* namestofacesUITests.swift */; };
+		20A685A4228B984500026268 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A685A3228B984500026268 /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		20A68591228B830E00026268 /* namestofacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = namestofacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A68595228B830E00026268 /* namestofacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namestofacesUITests.swift; sourceTree = "<group>"; };
 		20A68597228B830E00026268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A685A3228B984500026268 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		20A68569228B830D00026268 = {
 			isa = PBXGroup;
 			children = (
+				20A685A3228B984500026268 /* PersonCell.swift */,
 				20A68574228B830D00026268 /* namestofaces */,
 				20A68589228B830E00026268 /* namestofacesTests */,
 				20A68594228B830E00026268 /* namestofacesUITests */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A685A4228B984500026268 /* PersonCell.swift in Sources */,
 				20A68578228B830D00026268 /* ViewController.swift in Sources */,
 				20A68576228B830D00026268 /* AppDelegate.swift in Sources */,
 			);
